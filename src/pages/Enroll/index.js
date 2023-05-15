@@ -44,7 +44,6 @@ export default function Enroll() {
 
   return (
     <AuthLayout background={eventInfo.backgroundImageUrl}>
-      console.log({window.location.port})
       <Row>
         <img src={eventInfo.logoImageUrl} alt="Event Logo" width="60px" />
         <Title>{eventInfo.title}</Title>
