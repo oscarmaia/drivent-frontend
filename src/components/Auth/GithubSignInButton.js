@@ -20,7 +20,7 @@ export default function GithubSignInButton() {
       response_type: 'code',
       scope: 'user',
       client_id: `${process.env.REACT_APP_CLIENT_ID}`,
-      redirect_uri: `http://localhost:80/enroll`,
+      redirect_uri: 'http://localhost:80/enroll',
     };
 
     const queryString = qs.stringify(params);
